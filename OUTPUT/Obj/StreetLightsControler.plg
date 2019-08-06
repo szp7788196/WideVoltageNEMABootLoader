@@ -1,0 +1,320 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+F:\SZP\项目\NEMA强电版\常州协议版\BootLoader\MDK-ARM\StreetLightsControler.uvproj
+Project File Date:  06/24/2019
+
+<h2>Output:</h2>
+Build target 'StreetLightsControler'
+linking...
+Program Size: Code=10108 RO-data=1384 RW-data=2132 ZI-data=6908  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil\ARM\ARMCC\bin\fromelf.exe  --bin -o   ..\OUTPUT\Obj\SLC.bin ..\OUTPUT\Obj\StreetLightsControler.axf
+"..\OUTPUT\Obj\StreetLightsControler.axf" - 0 Errors, 0 Warning(s).
+Load "..\\OUTPUT\\Obj\\StreetLightsControler.axf" 
+* JLink Info: Device "STM32F103RE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "F:\SZP\项目\NEMA强电版\常州协议版\BootLoader\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link V9 compiled Sep  1 2016 18:29:50
+Hardware: V9.70
+S/N : 59700618 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.280V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 0
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'StreetLightsControler'
+compiling main.c...
+compiling inventr.c...
+linking...
+Program Size: Code=10108 RO-data=1384 RW-data=2132 ZI-data=6908  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil\ARM\ARMCC\bin\fromelf.exe  --bin -o   ..\OUTPUT\Obj\SLC.bin ..\OUTPUT\Obj\StreetLightsControler.axf
+"..\OUTPUT\Obj\StreetLightsControler.axf" - 0 Errors, 0 Warning(s).
+Load "..\\OUTPUT\\Obj\\StreetLightsControler.axf" 
+* JLink Info: Device "STM32F103RE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "F:\SZP\项目\NEMA强电版\常州协议版\BootLoader\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link V9 compiled Sep  1 2016 18:29:50
+Hardware: V9.70
+S/N : 59700618 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.301V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 0
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'StreetLightsControler'
+compiling main.c...
+compiling inventr.c...
+linking...
+Program Size: Code=10108 RO-data=1384 RW-data=2132 ZI-data=6908  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil\ARM\ARMCC\bin\fromelf.exe  --bin -o   ..\OUTPUT\Obj\SLC.bin ..\OUTPUT\Obj\StreetLightsControler.axf
+"..\OUTPUT\Obj\StreetLightsControler.axf" - 0 Errors, 0 Warning(s).
+Build target 'StreetLightsControler'
+linking...
+Program Size: Code=10108 RO-data=1384 RW-data=2132 ZI-data=6908  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil\ARM\ARMCC\bin\fromelf.exe  --bin -o   ..\OUTPUT\Obj\SLC.bin ..\OUTPUT\Obj\StreetLightsControler.axf
+"..\OUTPUT\Obj\StreetLightsControler.axf" - 0 Errors, 0 Warning(s).
+Build target 'StreetLightsControler'
+linking...
+Program Size: Code=10108 RO-data=1384 RW-data=2132 ZI-data=6908  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil\ARM\ARMCC\bin\fromelf.exe  --bin -o   ..\OUTPUT\Obj\SLC.bin ..\OUTPUT\Obj\StreetLightsControler.axf
+"..\OUTPUT\Obj\StreetLightsControler.axf" - 0 Errors, 0 Warning(s).
+Build target 'StreetLightsControler'
+compiling main.c...
+linking...
+Program Size: Code=10008 RO-data=1384 RW-data=2132 ZI-data=6908  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil\ARM\ARMCC\bin\fromelf.exe  --bin -o   ..\OUTPUT\Obj\SLC.bin ..\OUTPUT\Obj\StreetLightsControler.axf
+"..\OUTPUT\Obj\StreetLightsControler.axf" - 0 Errors, 0 Warning(s).
+Build target 'StreetLightsControler'
+linking...
+Program Size: Code=10008 RO-data=1384 RW-data=2132 ZI-data=6908  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil\ARM\ARMCC\bin\fromelf.exe  --bin -o   ..\OUTPUT\Obj\SLC.bin ..\OUTPUT\Obj\StreetLightsControler.axf
+"..\OUTPUT\Obj\StreetLightsControler.axf" - 0 Errors, 0 Warning(s).
+Load "..\\OUTPUT\\Obj\\StreetLightsControler.axf" 
+* JLink Info: Device "STM32F103RE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "F:\SZP\项目\NEMA强电版\常州协议版\BootLoader\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link V9 compiled Sep  1 2016 18:29:50
+Hardware: V9.70
+S/N : 59700618 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+Build target 'StreetLightsControler'
+linking...
+Program Size: Code=10008 RO-data=1384 RW-data=2132 ZI-data=6908  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil\ARM\ARMCC\bin\fromelf.exe  --bin -o   ..\OUTPUT\Obj\SLC.bin ..\OUTPUT\Obj\StreetLightsControler.axf
+"..\OUTPUT\Obj\StreetLightsControler.axf" - 0 Errors, 0 Warning(s).
+Load "..\\OUTPUT\\Obj\\StreetLightsControler.axf" 
+* JLink Info: Device "STM32F103RE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "F:\SZP\项目\NEMA强电版\常州协议版\BootLoader\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link V9 compiled Sep  1 2016 18:29:50
+Hardware: V9.70
+S/N : 59700618 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.279V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 0
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Build target 'StreetLightsControler'
+compiling main.c...
+linking...
+Program Size: Code=10108 RO-data=1384 RW-data=2132 ZI-data=6908  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil\ARM\ARMCC\bin\fromelf.exe  --bin -o   ..\OUTPUT\Obj\SLC.bin ..\OUTPUT\Obj\StreetLightsControler.axf
+"..\OUTPUT\Obj\StreetLightsControler.axf" - 0 Errors, 0 Warning(s).
+Build target 'StreetLightsControler'
+linking...
+Program Size: Code=10108 RO-data=1384 RW-data=2132 ZI-data=6908  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil\ARM\ARMCC\bin\fromelf.exe  --bin -o   ..\OUTPUT\Obj\SLC.bin ..\OUTPUT\Obj\StreetLightsControler.axf
+"..\OUTPUT\Obj\StreetLightsControler.axf" - 0 Errors, 0 Warning(s).
+Build target 'StreetLightsControler'
+linking...
+Program Size: Code=10108 RO-data=1384 RW-data=2132 ZI-data=6908  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil\ARM\ARMCC\bin\fromelf.exe  --bin -o   ..\OUTPUT\Obj\SLC.bin ..\OUTPUT\Obj\StreetLightsControler.axf
+"..\OUTPUT\Obj\StreetLightsControler.axf" - 0 Errors, 0 Warning(s).
+Clean started: Project: 'StreetLightsControler'
+   deleting intermediate output files for target 'StreetLightsControler'
+Build target 'StreetLightsControler'
+compiling main.c...
+compiling common.c...
+compiling stm32f10x_it.c...
+compiling ota.c...
+compiling core_cm3.c...
+assembling startup_stm32f10x_hd.s...
+compiling system_stm32f10x.c...
+compiling delay.c...
+compiling sys.c...
+compiling iic1.c...
+compiling rtc.c...
+compiling usart.c...
+compiling dac.c...
+compiling 24cxx.c...
+compiling led.c...
+compiling inventr.c...
+compiling pwm.c...
+compiling cd4051b.c...
+compiling misc.c...
+compiling stm32f10x_adc.c...
+compiling stm32f10x_bkp.c...
+compiling stm32f10x_can.c...
+compiling stm32f10x_cec.c...
+compiling stm32f10x_crc.c...
+compiling stm32f10x_dac.c...
+compiling stm32f10x_dbgmcu.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+linking...
+Program Size: Code=10108 RO-data=1384 RW-data=2132 ZI-data=6908  
+FromELF: creating hex file...
+After Build - User command #1: C:\Keil\ARM\ARMCC\bin\fromelf.exe  --bin -o   ..\OUTPUT\Obj\SLC.bin ..\OUTPUT\Obj\StreetLightsControler.axf
+"..\OUTPUT\Obj\StreetLightsControler.axf" - 0 Errors, 0 Warning(s).
+Load "..\\OUTPUT\\Obj\\StreetLightsControler.axf" 
+* JLink Info: Device "STM32F103RE" selected (512 KB flash, 64 KB RAM).
+Set JLink Project File to "F:\SZP\项目\NEMA强电版\常州协议版\BootLoader\MDK-ARM\JLinkSettings.ini"
+ 
+JLink info:
+------------
+DLL: V4.40c, compiled Jan 24 2012 09:30:33
+Firmware: J-Link V9 compiled Sep  1 2016 18:29:50
+Hardware: V9.70
+S/N : 59700618 
+Feature(s) : RDI, FlashBP, FlashDL, JFlash, GDB 
+ 
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ROMTableAddr = 0xE00FF003
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+ 
+Target info:
+------------
+Device: STM32F103RE
+VTarget = 3.287V
+State of Pins: 
+TCK: 0, TDI: 0, TDO: 0, TMS: 1, TRES: 1, TRST: 0
+Hardware-Breakpoints: 6
+Software-Breakpoints: 8192
+Watchpoints:          4
+JTAG speed: 2000 kHz
+ 
+Erase Done.
+Programming Done.
+Verify OK.
+* JLink Info: Found SWD-DP with ID 0x1BA01477
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+Application running ...
+Clean started: Project: 'StreetLightsControler'
+   deleting intermediate output files for target 'StreetLightsControler'
