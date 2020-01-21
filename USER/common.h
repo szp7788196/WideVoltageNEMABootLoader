@@ -38,8 +38,8 @@
     typedef unsigned long long int  uint64;
     typedef long long int           int64;
 	
-#define BC95B5_OC
-//#define M5310A_ON
+#define OCEANCONNECT
+//#define ONENET
 
 
 #define SOFT_WARE_VRESION				101				//软件版本号
@@ -55,7 +55,7 @@
 #define FIRMWARE_ERASE_SUCCESS			8			//擦除FLASH成功
 #define FIRMWARE_ERASE_FAIL				9			//擦除FLASH成功
 #define FIRMWARE_ERASEING				10			//正在擦除FLASH
-#define FIRMWARE_BAG_SIZE				130			//128 + 2字节crc
+#define FIRMWARE_BAG_SIZE				258			//128 + 2字节crc
 #define FIRMWARE_RUN_FLASH_BASE_ADD		0x08006000	//程序运行地址
 #define FIRMWARE_BUCKUP_FLASH_BASE_ADD	0x08043000	//程序备份地址
 #define FIRMWARE_SIZE					FIRMWARE_BUCKUP_FLASH_BASE_ADD - FIRMWARE_RUN_FLASH_BASE_ADD
@@ -68,15 +68,16 @@
 #define INIT_LIGHT_LEVEL			LightLevelPercent
 
 
-#ifdef BC95B5_OC
-#define E_FW_UPDATE_STATE_ADD			93	//固件升级状态
+#ifdef OCEANCONNECT
+#define E_FW_UPDATE_STATE_ADD			93		//固件升级状态
 #define E_FW_UPDATE_STATE_LEN			15
 #endif
 
-#ifdef M5310A_ON
+#ifdef ONENET
 #define E_FW_UPDATE_STATE_ADD			7808	//固件升级状态
 #define E_FW_UPDATE_STATE_LEN			15
 #endif
+
 
 
 static const uint32_t crc32tab[] = 

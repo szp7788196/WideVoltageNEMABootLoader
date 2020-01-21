@@ -24,7 +24,7 @@ int main(void)
 	NVIC_Configuration();
 	RELAY_Init();
 	delay_init();
-	RTC_Init();
+//	RTC_Init();
 	AT24CXX_Init();
 	DAC1_Init();
 	LED_Init();
@@ -33,7 +33,7 @@ int main(void)
 	USART2_Init(9600);
 
 	__set_PRIMASK(0);	//开启全局中断
-	
+
 //	AT24CXX_WriteOneByte(EC1_ADD,0);
 
 //	for(i = 0; i < 256; i ++)
@@ -50,13 +50,13 @@ int main(void)
 //	WriteFrameWareStateToEeprom();			//将默认值写入EEPROM
 
 	IWDG_Feed();				//喂看门狗
-	
+
 	SetLightLevel(100);
 
 	while(1)
 	{
 		CopyJumpToAppAddress();
-		
+
 		delay_ms(1000);
 	}
 }
